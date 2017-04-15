@@ -1,9 +1,10 @@
-
 # ShouldiBunk
- This is code to for students of Christ university, where instead of logging in to the student website, calculating the number of classes they can bunk this code simplifies the whole process is automated.
+ This code is for students of Christ university, where instead of logging in to the student website and then calculating the number of classes they can bunk, this code automates the whole process.
 
-Drivers required:
- -Selenium
- -PyQt5
- -tkinter
-and python3 to run the code
+python libraries:
+
+ * Selenium
+ * PyQt5
+ * tkinter
+  
+ and code runs on python 3
