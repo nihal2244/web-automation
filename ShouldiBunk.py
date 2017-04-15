@@ -5,13 +5,13 @@ from PyQt5 import Qt
 import sys
 from tkinter import *
 
-driver=webdriver.Chrome()
+
 
 def drivelog():
 
     usn=e1.get()
     pwd=e2.get()
-    
+    driver=webdriver.Chrome()
     driver.get("https://christuniversity.in/StudentLogin.html")
     driver.implicitly_wait(40)
     driver.switch_to_default_content()
